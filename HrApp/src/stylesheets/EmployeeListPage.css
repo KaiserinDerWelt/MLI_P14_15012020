@@ -1,0 +1,50 @@
+.employeeListPage {
+  margin-bottom: 50px;
+}
+
+.employeeListPage h1 {
+  text-align: center;
+}
+
+.employeeListPage a {
+  display: block;
+  text-align: center;
+}
+
+.searchbox {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  width: 280px;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.searchbox .MuiSvgIcon-root {
+  color: gray;
+}
+
+.searchbox input {
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+.modal__options {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.modal__options button {
+  margin-left: 10px;
+}
+
+.modal__form {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

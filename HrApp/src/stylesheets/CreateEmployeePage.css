@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.container button {
+  margin-top: 20px;
+}
+
+.container form button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container form fieldset {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.container form fieldset legend {
+  color: gray;
+}
